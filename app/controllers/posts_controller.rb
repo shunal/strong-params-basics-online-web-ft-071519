@@ -36,9 +36,7 @@ private
 # depending on the controller action. This
 # should come after the other methods
  
-def post_params(*args)
-  params.require(:post).permit(*args)
-end
+  
 
 	
 end
